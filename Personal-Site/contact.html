@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <met a name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Page</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <hr size="3" noshade="none" />
+    <p>You can contact me with any questions you might have.</p>
+    <p>2343 Any Street</p>
+    <p>Small Town, USA 99999</p>
+    <p>(555)555-555</p>
+    <p><a href="mailto:johnwchaney@gmail.com">Contact Me</a></p>
+    <hr size="2" noshade="none" />
+
+    <form
+      action="mailto:johnwchaney@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Your Name</label>
+      <input type="text" name="yourName" value="" />
+      <!-- <input type="Submit" /><br /> -->
+      <br />
+      <label>Your email</label>
+      <input type="email" name="yourEmail" value="" /><br />
+      <label>Your message:</label><br />
+      <textarea name="name" rows="8" cols="30"></textarea><br />
+      <input type="submit" name="yourMessage" />
+    </form>
+  </body>
+</html>
